@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@drawable/fond"
+    android:gravity="center"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="190dp"
+        android:backgroundTint="#BF000000"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/shape"
+        >
+
+        <Button
+            android:id="@+id/googleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#d14735"
+            android:text="@string/google"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/twitterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1c99e5"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:text="@string/twitter"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/facebookBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3a5591"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:text="@string/facebook"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>
